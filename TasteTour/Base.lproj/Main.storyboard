@@ -72,6 +72,9 @@
                                 <state key="normal" title="Recipes">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Mep-D1-Clg" kind="presentation" modalTransitionStyle="crossDissolve" id="jeB-BF-vy6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b3F-jK-KFH">
                                 <rect key="frame" x="152" y="52" width="111" height="33"/>
@@ -81,6 +84,9 @@
                                 <state key="normal" title="Explore">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3qu-tr-WpK" kind="show" id="f65-Qf-10N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQ7-oJ-i2Y">
                                 <rect key="frame" x="290" y="52" width="104" height="34"/>
@@ -90,6 +96,9 @@
                                 <state key="normal" title="Donate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DhZ-SW-ccO" kind="presentation" modalTransitionStyle="crossDissolve" id="9lI-Qw-F5G"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfy-us-rSR">
                                 <rect key="frame" x="-1" y="122" width="416" height="45"/>
@@ -208,6 +217,9 @@
                                 <state key="normal" title="Recipes">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Mep-D1-Clg" kind="show" id="9Fq-oK-Ofs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6E-dZ-aTZ">
                                 <rect key="frame" x="152" y="43" width="111" height="33"/>
@@ -217,6 +229,9 @@
                                 <state key="normal" title="Explore">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3qu-tr-WpK" kind="show" id="93V-z4-Uh3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIZ-eA-kcE">
                                 <rect key="frame" x="283" y="43" width="111" height="33"/>
@@ -226,6 +241,9 @@
                                 <state key="normal" title="Donate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DhZ-SW-ccO" kind="show" id="DxJ-Ay-2Lo"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3503" translatesAutoresizingMaskIntoConstraints="NO" id="ehT-Kt-SA9">
                                 <rect key="frame" x="20" y="158" width="374" height="155"/>
@@ -236,7 +254,7 @@
                                 <rect key="frame" x="22" y="321" width="371" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3506" translatesAutoresizingMaskIntoConstraints="NO" id="3Mh-e3-KhY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Mh-e3-KhY">
                                 <rect key="frame" x="23" y="497" width="371" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -350,6 +368,9 @@
                                 <state key="normal" title="Recipes">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Mep-D1-Clg" kind="show" id="mYK-fE-HeD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REq-Fp-ozH">
                                 <rect key="frame" x="155" y="60" width="104" height="33"/>
@@ -359,6 +380,9 @@
                                 <state key="normal" title="Explore">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3qu-tr-WpK" kind="show" id="CdO-jg-mx6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjM-x4-aFo">
                                 <rect key="frame" x="290" y="60" width="104" height="33"/>
@@ -368,6 +392,9 @@
                                 <state key="normal" title="Donate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DhZ-SW-ccO" kind="show" id="u6s-ai-FV4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desserts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zXy-jn-arg">
                                 <rect key="frame" x="0.0" y="124" width="414" height="47"/>
@@ -377,7 +404,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3507" translatesAutoresizingMaskIntoConstraints="NO" id="Q6A-yB-pur">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="Q6A-yB-pur">
                                 <rect key="frame" x="20" y="179" width="374" height="203"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -385,7 +412,7 @@
                                 <rect key="frame" x="19" y="390" width="374" height="213"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3506" translatesAutoresizingMaskIntoConstraints="NO" id="Hbw-hQ-y3K">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3507" translatesAutoresizingMaskIntoConstraints="NO" id="Hbw-hQ-y3K">
                                 <rect key="frame" x="19" y="611" width="375" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -492,6 +519,9 @@
                                 <state key="normal" title="Donate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="DhZ-SW-ccO" kind="show" id="kcM-jH-QK1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATb-fO-qwM">
                                 <rect key="frame" x="155" y="44" width="104" height="33"/>
@@ -501,6 +531,9 @@
                                 <state key="normal" title="Explore">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3qu-tr-WpK" kind="show" id="nAF-ka-GyQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADi-Yt-vn2">
                                 <rect key="frame" x="20" y="44" width="104" height="33"/>
@@ -510,6 +543,9 @@
                                 <state key="normal" title="Recipes">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Mep-D1-Clg" kind="show" id="5ha-EA-vvX"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3506" translatesAutoresizingMaskIntoConstraints="NO" id="i4g-XE-4IR">
                                 <rect key="frame" x="19" y="165" width="375" height="200"/>
@@ -617,7 +653,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mep-D1-Clg" kind="show" id="OX3-cP-oyG"/>
+                                    <segue destination="Mep-D1-Clg" kind="show" id="Kpm-ve-5va"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9c1-AD-Hec">
@@ -629,7 +665,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3qu-tr-WpK" kind="show" id="Gtw-QA-rgu"/>
+                                    <segue destination="3qu-tr-WpK" kind="show" id="RkS-mi-xrr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qsd-Zx-Ab5">
@@ -641,7 +677,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DhZ-SW-ccO" kind="show" id="0yS-md-faA"/>
+                                    <segue destination="DhZ-SW-ccO" kind="show" id="TbQ-eN-C0y"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3489" translatesAutoresizingMaskIntoConstraints="NO" id="Mt4-zz-HiJ">
@@ -1282,6 +1318,9 @@ Sauce: 2 tbsp oil
                                 <state key="normal" title="Italian Cuisine">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UKR-F5-pmE" kind="presentation" modalTransitionStyle="crossDissolve" id="8NR-Mg-0hU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7u-nN-iLN">
                                 <rect key="frame" x="1" y="723" width="410" height="30"/>
@@ -1292,7 +1331,7 @@ Sauce: 2 tbsp oil
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UKR-F5-pmE" kind="show" id="utj-Y1-TyF"/>
+                                    <segue destination="35G-Ex-cue" kind="show" id="dKt-Zm-RCP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQp-HY-j80">
@@ -1334,70 +1373,99 @@ Sauce: 2 tbsp oil
             <objects>
                 <viewController id="3qu-tr-WpK" customClass="exploreViewController" customModule="TasteTour" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Xc-U1-xUl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3500" translatesAutoresizingMaskIntoConstraints="NO" id="GNk-hf-GJe">
-                                <rect key="frame" x="0.0" y="12" width="414" height="884"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGB-7m-M7t">
-                                <rect key="frame" x="20" y="44" width="111" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.54453521569999996" green="0.44729872459999998" blue="0.43768599120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <size key="titleShadowOffset" width="1" height="0.0"/>
-                                <state key="normal" title="Recipes">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZL-W2-etV">
-                                <rect key="frame" x="151" y="42" width="113" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.54453521569999996" green="0.44729872459999998" blue="0.43768599120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Explore">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3481" translatesAutoresizingMaskIntoConstraints="NO" id="Yse-eA-bBF">
-                                <rect key="frame" x="0.0" y="168" width="414" height="526"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mr7-C8-q42">
-                                <rect key="frame" x="236" y="302" width="178" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="tintColor" red="0.40410190820000003" green="0.45260102819999998" blue="0.71339625630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="location" catalog="system">
-                                    <color key="titleColor" red="0.40410190820000003" green="0.45260102819999998" blue="0.71339625630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" red="0.40410190820000003" green="0.45260102819999998" blue="0.71339625630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="35G-Ex-cue" kind="show" id="F3J-xD-XKK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Xg-NJ-NhK">
-                                <rect key="frame" x="151" y="244" width="83" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.5" green="0.35780950150000002" blue="0.35974780540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="location" catalog="system"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rli-7r-1f9">
-                                <rect key="frame" x="283" y="42" width="111" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.54453521569999996" green="0.44729872459999998" blue="0.43768599120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <state key="normal" title="Donate">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5E-q0-Ypx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="946"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3481" translatesAutoresizingMaskIntoConstraints="NO" id="tTQ-z9-y8h">
+                                        <rect key="frame" x="0.0" y="0.0" width="1900" height="974"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fz0-pU-XYy">
+                                        <rect key="frame" x="36" y="50" width="108" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.54453521569999996" green="0.44729872459999998" blue="0.43768599120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <size key="titleShadowOffset" width="1" height="0.0"/>
+                                        <state key="normal" title="Recipe">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Mep-D1-Clg" kind="show" id="tGN-kJ-4LI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kc-li-uQO">
+                                        <rect key="frame" x="283" y="49" width="107" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.54453521569999996" green="0.44729872459999998" blue="0.43768599120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <size key="titleShadowOffset" width="1" height="0.0"/>
+                                        <state key="normal" title="Donate">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="DhZ-SW-ccO" kind="show" id="Ktt-85-kdl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eqd-0M-1Jf">
+                                        <rect key="frame" x="162" y="50" width="113" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.54453521569999996" green="0.44729872459999998" blue="0.43768599120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <size key="titleShadowOffset" width="1" height="0.0"/>
+                                        <state key="normal" title="Explore">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p56-Et-RHg">
+                                        <rect key="frame" x="226" y="364" width="49" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="location" catalog="system"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHO-oS-wnp">
+                                        <rect key="frame" x="994" y="233" width="53" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.67453204320000004" green="0.1349452626" blue="0.095418157119999999" alpha="0.94485766270000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="location" catalog="system">
+                                            <color key="titleColor" red="0.67453204320000004" green="0.1349452626" blue="0.095418157119999999" alpha="0.94485766270000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="UKR-F5-pmE" kind="show" id="gy0-UM-3gW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tod-gj-QE9">
+                                        <rect key="frame" x="1336" y="375" width="63" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" image="location" catalog="system"/>
+                                        <connections>
+                                            <segue destination="35G-Ex-cue" kind="show" id="RnY-tP-5kx"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="tTQ-z9-y8h" secondAttribute="bottom" id="FVs-JE-nTz"/>
+                                    <constraint firstItem="tTQ-z9-y8h" firstAttribute="top" secondItem="h5E-q0-Ypx" secondAttribute="top" id="dJx-hI-Wy1"/>
+                                    <constraint firstItem="tTQ-z9-y8h" firstAttribute="leading" secondItem="h5E-q0-Ypx" secondAttribute="leading" id="uhK-AU-PH4"/>
+                                    <constraint firstAttribute="trailing" secondItem="tTQ-z9-y8h" secondAttribute="trailing" id="ukj-X6-7XF"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="h5E-q0-Ypx" secondAttribute="bottom" id="2Gz-II-PIi"/>
+                            <constraint firstItem="h5E-q0-Ypx" firstAttribute="top" secondItem="MMU-sK-9hZ" secondAttribute="top" id="8Y9-dv-WRD"/>
+                            <constraint firstItem="h5E-q0-Ypx" firstAttribute="leading" secondItem="MMU-sK-9hZ" secondAttribute="leading" id="eMi-tT-9R9"/>
+                            <constraint firstItem="h5E-q0-Ypx" firstAttribute="trailing" secondItem="MMU-sK-9hZ" secondAttribute="trailing" id="wtz-GK-dRk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MMU-sK-9hZ"/>
                     </view>
                     <navigationItem key="navigationItem" id="jBv-Ng-ITB"/>
+                    <size key="freeformSize" width="414" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ab1-vM-eZA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1544,9 +1612,11 @@ Sauce: 2 tbsp oil
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nHt-eD-PIe"/>
-        <segue reference="DIH-5a-ljd"/>
-        <segue reference="Z3G-pL-cgV"/>
+        <segue reference="Ktt-85-kdl"/>
+        <segue reference="18g-lq-BRD"/>
+        <segue reference="tGN-kJ-4LI"/>
+        <segue reference="RnY-tP-5kx"/>
+        <segue reference="gy0-UM-3gW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_3473" width="1080" height="1080"/>
@@ -1567,6 +1637,8 @@ Sauce: 2 tbsp oil
         <image name="IMG_3506" width="225" height="225"/>
         <image name="IMG_3507" width="225" height="225"/>
         <image name="IMG_3508" width="683" height="1024"/>
+        <image name="download" width="183" height="275"/>
+        <image name="download-1" width="183" height="275"/>
         <image name="download-2" width="183" height="275"/>
         <image name="location" catalog="system" width="128" height="115"/>
     </resources>
