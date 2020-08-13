@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8437931C24E4C3870088EE86 /* recipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437931B24E4C3870088EE86 /* recipeViewController.swift */; };
+		8437931E24E4C3940088EE86 /* exploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437931D24E4C3940088EE86 /* exploreViewController.swift */; };
+		8437932024E4C3A10088EE86 /* donateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437931F24E4C3A10088EE86 /* donateViewController.swift */; };
+		8437932224E4C3CB0088EE86 /* indianCuisineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932124E4C3CB0088EE86 /* indianCuisineViewController.swift */; };
+		8437932424E4C3DA0088EE86 /* butterChickenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932324E4C3DA0088EE86 /* butterChickenViewController.swift */; };
+		8437932624E4CD250088EE86 /* chickenmasalaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932524E4CD250088EE86 /* chickenmasalaViewController.swift */; };
+		8437932824E4D22C0088EE86 /* halwaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932724E4D22C0088EE86 /* halwaViewController.swift */; };
+		8437932A24E4EE410088EE86 /* kidFriendlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932924E4EE410088EE86 /* kidFriendlyViewController.swift */; };
+		8437932C24E4F80A0088EE86 /* keemaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932B24E4F80A0088EE86 /* keemaViewController.swift */; };
+		8437932E24E50C130088EE86 /* quickRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932D24E50C130088EE86 /* quickRecipesViewController.swift */; };
+		8437933024E519AB0088EE86 /* dessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932F24E519AB0088EE86 /* dessertViewController.swift */; };
+		8437933224E51F8E0088EE86 /* italianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437933124E51F8E0088EE86 /* italianViewController.swift */; };
 		849746BD24E46CC000D00A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849746BC24E46CC000D00A8C /* AppDelegate.swift */; };
 		849746BF24E46CC000D00A8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849746BE24E46CC000D00A8C /* SceneDelegate.swift */; };
 		849746C124E46CC000D00A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849746C024E46CC000D00A8C /* ViewController.swift */; };
@@ -36,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8437931B24E4C3870088EE86 /* recipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeViewController.swift; sourceTree = "<group>"; };
+		8437931D24E4C3940088EE86 /* exploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreViewController.swift; sourceTree = "<group>"; };
+		8437931F24E4C3A10088EE86 /* donateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateViewController.swift; sourceTree = "<group>"; };
+		8437932124E4C3CB0088EE86 /* indianCuisineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indianCuisineViewController.swift; sourceTree = "<group>"; };
+		8437932324E4C3DA0088EE86 /* butterChickenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = butterChickenViewController.swift; sourceTree = "<group>"; };
+		8437932524E4CD250088EE86 /* chickenmasalaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chickenmasalaViewController.swift; sourceTree = "<group>"; };
+		8437932724E4D22C0088EE86 /* halwaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = halwaViewController.swift; sourceTree = "<group>"; };
+		8437932924E4EE410088EE86 /* kidFriendlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidFriendlyViewController.swift; sourceTree = "<group>"; };
+		8437932B24E4F80A0088EE86 /* keemaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keemaViewController.swift; sourceTree = "<group>"; };
+		8437932D24E50C130088EE86 /* quickRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickRecipesViewController.swift; sourceTree = "<group>"; };
+		8437932F24E519AB0088EE86 /* dessertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessertViewController.swift; sourceTree = "<group>"; };
+		8437933124E51F8E0088EE86 /* italianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italianViewController.swift; sourceTree = "<group>"; };
 		849746B924E46CBF00D00A8C /* TasteTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849746BC24E46CC000D00A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849746BE24E46CC000D00A8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +105,19 @@
 		849746B024E46CBF00D00A8C = {
 			isa = PBXGroup;
 			children = (
+				8437932124E4C3CB0088EE86 /* indianCuisineViewController.swift */,
+				8437932324E4C3DA0088EE86 /* butterChickenViewController.swift */,
+				8437931B24E4C3870088EE86 /* recipeViewController.swift */,
+				8437931D24E4C3940088EE86 /* exploreViewController.swift */,
+				8437931F24E4C3A10088EE86 /* donateViewController.swift */,
+				8437932524E4CD250088EE86 /* chickenmasalaViewController.swift */,
+				8437932724E4D22C0088EE86 /* halwaViewController.swift */,
+				8437933124E51F8E0088EE86 /* italianViewController.swift */,
+				8437932F24E519AB0088EE86 /* dessertViewController.swift */,
+				8437932D24E50C130088EE86 /* quickRecipesViewController.swift */,
+				8437932924E4EE410088EE86 /* kidFriendlyViewController.swift */,
+				8437932B24E4F80A0088EE86 /* keemaViewController.swift */,
+				849746C024E46CC000D00A8C /* ViewController.swift */,
 				849746BB24E46CBF00D00A8C /* TasteTour */,
 				849746D524E46CC400D00A8C /* TasteTourTests */,
 				849746E024E46CC400D00A8C /* TasteTourUITests */,
@@ -103,7 +140,6 @@
 			children = (
 				849746BC24E46CC000D00A8C /* AppDelegate.swift */,
 				849746BE24E46CC000D00A8C /* SceneDelegate.swift */,
-				849746C024E46CC000D00A8C /* ViewController.swift */,
 				849746C224E46CC000D00A8C /* Main.storyboard */,
 				849746C824E46CC300D00A8C /* Assets.xcassets */,
 				849746CA24E46CC300D00A8C /* LaunchScreen.storyboard */,
@@ -263,9 +299,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				849746C124E46CC000D00A8C /* ViewController.swift in Sources */,
+				8437933024E519AB0088EE86 /* dessertViewController.swift in Sources */,
 				849746C724E46CC000D00A8C /* TasteTour.xcdatamodeld in Sources */,
+				8437932224E4C3CB0088EE86 /* indianCuisineViewController.swift in Sources */,
+				8437932C24E4F80A0088EE86 /* keemaViewController.swift in Sources */,
+				8437932824E4D22C0088EE86 /* halwaViewController.swift in Sources */,
+				8437932624E4CD250088EE86 /* chickenmasalaViewController.swift in Sources */,
+				8437933224E51F8E0088EE86 /* italianViewController.swift in Sources */,
+				8437932424E4C3DA0088EE86 /* butterChickenViewController.swift in Sources */,
 				849746BD24E46CC000D00A8C /* AppDelegate.swift in Sources */,
 				849746BF24E46CC000D00A8C /* SceneDelegate.swift in Sources */,
+				8437931E24E4C3940088EE86 /* exploreViewController.swift in Sources */,
+				8437932024E4C3A10088EE86 /* donateViewController.swift in Sources */,
+				8437932A24E4EE410088EE86 /* kidFriendlyViewController.swift in Sources */,
+				8437932E24E50C130088EE86 /* quickRecipesViewController.swift in Sources */,
+				8437931C24E4C3870088EE86 /* recipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
