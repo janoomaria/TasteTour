@@ -19,6 +19,8 @@
 		8437932E24E50C130088EE86 /* quickRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932D24E50C130088EE86 /* quickRecipesViewController.swift */; };
 		8437933024E519AB0088EE86 /* dessertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437932F24E519AB0088EE86 /* dessertViewController.swift */; };
 		8437933224E51F8E0088EE86 /* italianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437933124E51F8E0088EE86 /* italianViewController.swift */; };
+		8437937724E6130F0088EE86 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8437937624E6130F0088EE86 /* Launch Screen.storyboard */; };
+		8437938824E65AB00088EE86 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437938724E65AB00088EE86 /* MyTableViewController.swift */; };
 		849746BD24E46CC000D00A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849746BC24E46CC000D00A8C /* AppDelegate.swift */; };
 		849746BF24E46CC000D00A8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849746BE24E46CC000D00A8C /* SceneDelegate.swift */; };
 		849746C124E46CC000D00A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849746C024E46CC000D00A8C /* ViewController.swift */; };
@@ -60,6 +62,8 @@
 		8437932D24E50C130088EE86 /* quickRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickRecipesViewController.swift; sourceTree = "<group>"; };
 		8437932F24E519AB0088EE86 /* dessertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dessertViewController.swift; sourceTree = "<group>"; };
 		8437933124E51F8E0088EE86 /* italianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italianViewController.swift; sourceTree = "<group>"; };
+		8437937624E6130F0088EE86 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8437938724E65AB00088EE86 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		849746B924E46CBF00D00A8C /* TasteTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849746BC24E46CC000D00A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849746BE24E46CC000D00A8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				849746BC24E46CC000D00A8C /* AppDelegate.swift */,
 				849746BE24E46CC000D00A8C /* SceneDelegate.swift */,
 				849746C224E46CC000D00A8C /* Main.storyboard */,
+				8437938724E65AB00088EE86 /* MyTableViewController.swift */,
+				8437937624E6130F0088EE86 /* Launch Screen.storyboard */,
 				849746C824E46CC300D00A8C /* Assets.xcassets */,
 				849746CA24E46CC300D00A8C /* LaunchScreen.storyboard */,
 				849746CD24E46CC300D00A8C /* Info.plist */,
@@ -273,6 +279,7 @@
 			files = (
 				849746CC24E46CC300D00A8C /* LaunchScreen.storyboard in Resources */,
 				849746C924E46CC300D00A8C /* Assets.xcassets in Resources */,
+				8437937724E6130F0088EE86 /* Launch Screen.storyboard in Resources */,
 				849746C424E46CC000D00A8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +318,7 @@
 				849746BF24E46CC000D00A8C /* SceneDelegate.swift in Sources */,
 				8437931E24E4C3940088EE86 /* exploreViewController.swift in Sources */,
 				8437932024E4C3A10088EE86 /* donateViewController.swift in Sources */,
+				8437938824E65AB00088EE86 /* MyTableViewController.swift in Sources */,
 				8437932A24E4EE410088EE86 /* kidFriendlyViewController.swift in Sources */,
 				8437932E24E50C130088EE86 /* quickRecipesViewController.swift in Sources */,
 				8437931C24E4C3870088EE86 /* recipeViewController.swift in Sources */,
